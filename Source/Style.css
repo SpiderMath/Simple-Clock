@@ -19,7 +19,7 @@ body {
 }
 
 .clock {
-	border: 3px solid #3ba0c5;
+	border: 3px solid #ff0045;
 	border-radius: 20px;
 	text-align: center;
 	padding: 20px;
@@ -31,5 +31,5 @@ body {
 }
 
 .clock:hover {
-	background-color: #4cb8df;
+	background-color: #ff0045;
 }

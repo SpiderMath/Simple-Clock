@@ -1,6 +1,7 @@
 const timeElement = document.getElementById("clock-text");
 const amPmElement = document.getElementById("clock-ampm");
 const dateElement = document.getElementById("clock-date");
+const timezoneElement = document.getElementById("clock-timezone");
 
 class SimpleDigitalClock {
 	start() {
@@ -22,6 +23,9 @@ class SimpleDigitalClock {
 
 		dateElement.innerText = `${str[0]}, ${str[1]} ${str[2]}, ${str[3]}`;
 
+		str = str.slice(5);
+
+		timezoneElement.innerText = str.join(" ");
 	}
 };
 
