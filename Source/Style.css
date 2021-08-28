@@ -1,0 +1,35 @@
+span {
+	font-family: cursive;
+}
+
+body {
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	height: 500px;
+}
+
+#clock-text {
+	font-size: 50px;
+}
+
+#clock-ampm {
+	font-size: 30px;
+}
+
+.clock {
+	border: 3px solid #3ba0c5;
+	border-radius: 20px;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 600;
+	transition: 1s;
+	transition-property: background, box-shadow;
+}
+
+.clock:hover {
+	background-color: #4cb8df;
+}
