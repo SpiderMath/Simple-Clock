@@ -1,3 +1,7 @@
+:root {
+	--main-clock-color: #0045ff
+}
+
 span {
 	font-family: cursive;
 }
@@ -19,7 +23,7 @@ body {
 }
 
 .clock {
-	border: 3px solid #ff0045;
+	border: 3px solid var(--main-clock-color);
 	border-radius: 20px;
 	text-align: center;
 	padding: 20px;
@@ -31,5 +35,5 @@ body {
 }
 
 .clock:hover {
-	background-color: #ff0045;
+	background-color: var(--main-clock-color);
 }
